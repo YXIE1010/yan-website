@@ -1,5 +1,5 @@
 # Build your personal website using Github
-Hi, this is Yan. This program is used to host my personal website.
+Hi, this is Yan. This program is used to host my personal website: https://yxie1010.github.io/yan-website/.
 If you also want to build your personal website and publish it using Github pages, this tutorial may be a good start: https://cplmakerlab.github.io/simple-website-template/
 
 ## Common tags
