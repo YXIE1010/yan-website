@@ -145,5 +145,4 @@ ul.main-menu li a.active {
 .image12::after{
     content:"";
     clear: both;
-    display: table;
 }
