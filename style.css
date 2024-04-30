@@ -137,12 +137,18 @@ ul.main-menu li a.active {
   display:block;
 }
 
-
-.imgContainer{
-    float:left;
+.image12{
+    white-space: nowrap;
 }
 
-.image12::after{
-    content:"";
-    clear: both;
+.imag1{
+  display:inline-block;
+  width: 300px;
+  white-space: normal;
+}
+
+.imag2{
+  display:inline-block;
+  width: 300px;
+  white-space: normal;
 }
