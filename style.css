@@ -140,4 +140,12 @@ ul.main-menu li a.active {
 
 .imgContainer{
     float:left;
+    width: 50.0%;
+    padding: 5px;
+}
+
+.image12{
+    content:"";
+    clear: both;
+    display: table;
 }
