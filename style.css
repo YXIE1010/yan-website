@@ -144,7 +144,7 @@ ul.main-menu li a.active {
     padding: 5px;
 }
 
-.image12{
+.image12::after{
     content:"";
     clear: both;
     display: table;
