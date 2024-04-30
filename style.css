@@ -138,16 +138,6 @@ ul.main-menu li a.active {
 }
 
 
-div{
+.imgContainer{
     float:left;
-    margin-right:5px;
-}
-
-div > img{
-   height:200px;
-    width:200px;
-}
-
-p{
-    text-align:center;
 }
