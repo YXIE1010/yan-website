@@ -152,3 +152,10 @@ ul.main-menu li a.active {
   width: 300px;
   white-space: normal;
 }
+/* Space between project sections */
+#Projects h2 {
+  margin-top: 4rem;     /* ~40px above each project title */
+}
+#Projects h2:first-child {
+  margin-top: 0;        /* no extra gap above the first one */
+}

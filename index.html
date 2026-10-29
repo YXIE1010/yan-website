@@ -12,7 +12,7 @@
     <!-- Stylesheets -->
     <!-- Reset default styles and add support for google fonts -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
-    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
    
     <!-- Custom styles -->
     <link href="style.css" rel="stylesheet" type="text/css" />
@@ -47,14 +47,14 @@
             <h2>About me</h2>
             <p>              
               Hello, welcome to my personal website! 
-              I am currently a <a href="https://www.ai2es.org/">NSF AI2ES postdoctoral researcher</a>
-              at the University of Oklahoma working on bias correction in AI-based weather prediction models 
-              with <a href="https://mcgovern-fagg.org/amy/">Prof. Amy McGovern</a> 
-              and <a href="https://evans.uw.edu/profile/ann-bostrom/">Prof. Ann Bostrom</a> at University of Washington. 
+              I am currently a <a href="https://www.ai2es.org/">NSF AI2ES postdoctoral researcher</a> 
+              working on bias correction in AI-based weather prediction models 
+              with <a href="https://mcgovern-fagg.org/amy/">Prof. Amy McGovern</a> (University of Oklahoma) 
+              and <a href="https://evans.uw.edu/profile/ann-bostrom/">Prof. Ann Bostrom</a> (University of Washington). 
               I recently graduated from <a href="https://clasp.engin.umich.edu/">University of Michigan</a> advised by
               <a href="https://pettersen.engin.umich.edu/">Prof. Claire Pettersen</a>, Prof. Xianglei Huang, and Prof. Mark Flanner. 
               My research interests span clouds and precipitation, trustworthy AI/machine learning, satellite and radar remote sensing.
-              The Arctic is one of my favoriate regions to study because of its unique and rapidly changing climate, and because I simply love snow.
+              The Arctic is one of my favorite regions to study because of its unique and rapidly changing climate, and because I simply love snow.
             </p>
             <h2>CV</h2>
             <p>
@@ -77,7 +77,7 @@
             </p>
             <p style="padding-bottom:8px">
               <b>Xie, Y.</b>, Pettersen, C., & King, F. (submitted). 
-              Long-term observations reveal more frequent and presistent Arctic stratiform rainfall. Communications Earth & Environment
+              Long-term observations reveal more frequent and persistent Arctic stratiform rainfall. Communications Earth & Environment.
             </p>
             <p style="padding-bottom:8px">
               Erickson, N., Huynh, N., <b>Xie, Y.</b>, McGovern, A., Bostrom, A. (under revision). 
@@ -138,25 +138,25 @@
               ClickCollect can be useful in many other applications, 
               and therefore happily post it on <a href="https://github.com/YXIE1010/ClickCollect">GitHub</a>           
             </p>
-            <p style="padding-bottom:8px">
-              A video demo of ClickCollect application on radar observations  
-              <div class="iframe-container">
-              <iframe width="560" height="315" 
-                src="https://www.youtube.com/embed/IgrfIy64aYA?si=cjweQR3_xIzjby6N" 
-                title="YouTube video player" frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
-                web-share" referrerpolicy="strict-origin-when-cross-origin" 
-                allowfullscreen=""></iframe>
-              </div>
-            </p>
+            
+            <p>A video demo of ClickCollect application on radar observations:</p>
+            <div class="iframe-container">
+              <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/IgrfIy64aYA?si=cjweQR3_xIzjby6N"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
 
             <h2>ML2: Machine Learning based Melting Layer detection</h2>
             <p style="padding-bottom:8px">
-              Melting layers signify the height where transition from solid to liquid precipitation occurs, 
-              and generate distinctive signatures in radar observations. 
-              This project aims to develop a machine learning based method for 
-              automatic detection of melting layers from Atmospheric Radiation Measurement (ARM) radar observations.  
-
+              Melting layers signify the height where falling snow turns to rain. Traditional radar detection approaches struggle
+              to locate melting layers across diverse weather. We trained a U-Net model to detect melting layers automatically 
+              from Ka-band profiling radar observations at the North Slope of Alaska. The U-Net segmentation model raises the 
+              Dice coefficient from 0.69 to 0.91 over a traditional method and quantifies its own uncertainty through ensembles. 
+              Check the <a href="https://doi.org/10.1029/2024JH000521">paper</a> for more. 
+            </p>   
+            <p>
               Below shows an example on May 26, 2015 from 00:55:40 to 01:11:26 UTC.           
             </p>
             <div class="image12">
